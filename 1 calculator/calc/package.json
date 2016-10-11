@@ -1,0 +1,12 @@
+{
+  "name": "calchim",
+  "version": "1.0.0",
+  "description": "cll",
+  "main": "calc.js",
+  "scripts": {
+    "test": "Enter data",
+      "start":"node consume"
+  },
+  "author": "",
+  "license": "ISC"
+}
