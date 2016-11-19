@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <script src="../javascripts/libs/angular.min.js"></script>
+    <script src="../javascripts/users/app.js"></script>
+    <script src="../javascripts/users/factory/loginfactory.js"></script>
+    <script src="../javascripts/users/controller/loginctrl.js"></script>
+</head>
+<body ng-app="userapp" ng-controller="loginctrl">
+    <h1>Login Page</h1>
+    <input type="text" ng-model="user.userid" placeholder="Type Userid">
+    <input type="text" ng-model="user.password" placeholder="Type Password">
+    <button ng-click="doLogin()"> Login</button>
+    <h1>{{data}} {{error}}</h1>
+</body>
+</html>
